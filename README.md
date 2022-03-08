@@ -5,3 +5,17 @@ The event is a 8-week long pitch competition that aims to give participants an o
 1. Spur blockchain innovation within the NTU cohort </br>
 2. Provide NTU students with an opportunity to dabble in blockchain ideation and development </br> 
 
+# Ideation
+## Problem Statement 
+The hassle of preparing required documents before travelling 
+
+## Solutions
+Develop blockchain design systems that are able to purchase pre-departure/on-arrival ART/PCR Test Kits and flight tickets through cryptocurrency, validate documents through smart contracts and generate NFTs as a Safe Travel Pass
+
+
+
+
+
+
+
+
