@@ -7,10 +7,10 @@ The event is a 8-week long pitch competition that aims to give participants an o
 
 # Ideation
 ## Problem Statement 
-The hassle of preparing required documents before travelling 
+The hassle of prepare multiple required documents and purchase various test kits before departure/on-arrival for travelling bring inconvenience to the travellers 
 
 ## Solutions
-Develop blockchain design systems that are able to purchase pre-departure/on-arrival ART/PCR Test Kits and flight tickets through cryptocurrency, validate documents through smart contracts and generate NFTs as a Safe Travel Pass
+Develop blockchain web application that able to purchase pre-departure/on-arrival ART/PCR Test Kits and flight tickets through cryptocurrency, validate documents through smart contracts and generate NFTs as a Safe Travel Pass
 
 
 
