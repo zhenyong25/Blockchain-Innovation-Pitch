@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>EasyTravel MainPage</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--title icon (.ico) format -->
+  <!--<link rel="icon" type="image/x-icon" href=""> -->
+
+  <!-- remember to change the href -->
+  <link rel="stylesheet" href="main_page/main_page_styles.css">
+
+  <!-- css styling sheet -->
+  <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet"> -->
+
+  <!-- web3  -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>  
+  <script src="./block.js"></script>
+  <script src="./main_page/address.js"></script>
+  <script src="./main_page/country.js"></script>
+  <script src="./main_page/navigation.js"></script>
+  <script
+  src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.6.1/web3.min.js"
+  integrity="sha512-5erpERW8MxcHDF7Xea9eBQPiRtxbse70pFcaHJuOhdEBQeAxGQjUwgJbuBDWve+xP/u5IoJbKjyJk50qCnMD7A=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+  
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+</head>
+
+<!-- Main Account  -->
+<header>
+  <div class="Main-Account">
+    <h5>Main Account</h5>
+  </div>
+  <div class="address">
+    <!-- 0x19f4147398d2B4Bb048467aAAa7E604424A6Ff34 -->
+    <h5 class="p-address">0x19f4......A6Ff34</h5>
+      <p id='userAddress'></p>
+  </div>
+
+  </div>
+</header>
+
+<body>
+  <!-- Safe Travel Pass -->
+  <div class="pass">
+    <h5>Safe Travel Pass</h5>
+  </div>
+  <div class="country">
+      <form action="" method="post"> 
+        <div class="selection"> 
+          <ul>
+            <label for="from">FROM</label>
+              <select name="country" class="countries form-control" id="countryId" width="200">
+                <option value="">Select Country</option>
+              </select>
+          
+          
+            <label for="to">TO</label>
+              <select name="country" class="countries form-control" id="countryId">
+                <option value="">Select Country</option>
+              </select>
+          </ul>
+        </div>
+      </form>
+    <button class="proceed" onclick="proceed()">Proceed</button>
+  </div>
+
+  <!-- Tickets -->
+  <div class="tickets">
+    <h5 class="Purchase">Purchase Tickets</h5>
+    <div>
+      <!-- <img src="ART_PCR_test.png" alt="ART_PCR_test" width="125" height="150"> -->
+      <button class="ap-tickets" onclick="aptickets()">
+        <img src="src\img\ART_PCR_test.png" height="45" width="60">
+        <h5 class="ticks">ART/PCR Tickets</h5>
+      </button>
+    </div>
+    <div>
+      <!-- <img src="flight_tickets.png" alt="flight_tickets" width="125" height="150"> -->
+      <button class="flight-tickets" onclick="flight()">
+        <img src="src/img/flight_tickets.png" height="50" width="50">
+          <h5 class="ticks">Flight Tickets</h5>
+      </button>
+    </div>  
+  </div>
+
+  <!-- Recent Collections -->
+ <div class="collections">
+    <h5 class="recent">Recent Collections</h5>
+      <img class="NFT1" src="src/img/Singapore.png" alt="SingaporeNFT" width="125" height="150">
+      <img class="NFT2" src="src/img/Malaysia.png" alt="MalaysiaNFT" width="125" height="150"> 
+</div> 
+</body>
+
+<footer>
+  <!-- <nav class="navbar navbar-dark bg-info"> -->
+    <ul class="features">
+      <input class="icon" type="image" src="src/img/Exchange Wallet.png" onclick="exchange()" height="35" width="35">
+      <input class="icon" type="image" src="src/img/Collections.png" onclick="collections()" height="35" width="35">
+      <input class="icon" type="image" src="src/img/home.png" onclick="home()" height="35" width="35">
+      <input class="icon" type="image" src="src/img/Wallet.png" onclick="wallet()" height="35" width="35">
+      <input class="icon" type="image" src="src/img/Settings.png" onclick="settings()" height="35" width="35">
+    </ul>
+  <!-- </nav> -->
+  <nav class="nav-bar">
+
+  </nav>
+</footer>
+
+
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>EasyTravel</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--title icon (.ico) format -->
+  <!-- <link rel="icon" type="image/x-icon" href=""> -->
+  <link rel="stylesheet" href="components/art_pcr/art_pcr.css"/>
+  <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet"> -->
+
+  <!-- web3  -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>  
+  <script src="./components/art_pcr/web3.js"></script>
+  
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+    <img src="src\img\ART_PCR_test.png" alt="ART&PCT" class="art" width="200" height="140">
+    <h5>ART/PCR Test</h5>
+    <button class="back" onclick="history.back()">
+        <img src="src/img/back-button.png" alt="back-button" width="15" height="15">
+    </button>
+    <div class="ART">
+        <h5 class="test">ART</h5>
+        <button class="purchase1" onclick="purchase()">Purchase</button>
+        <input class="refresh" type="image" src="src/img/refresh.png" onclick="refresh()" height="25" width="25">
+        <div class="amount">
+            <div class="value"></div>
+            <p class="price">8</p>
+            <div class="USDT">USDT</div>
+            <img class="tether" src="src/img/USDT.png" height="30" width="30">
+        </div>
+    </div>
+    <div class="PCR">
+        <h5 class="test">PCR</h5>
+        <button class="purchase2" onclick="purchase()">Purchase</button>
+        <input class="refresh" type="image" src="src/img/refresh.png" onclick="refresh()" height="25" width="25">
+        <div class="amount">
+            <div class="value"></div>
+            <p class="price">75</p>
+            <div class="USDT"> USDT</div>
+            <img class="tether" src="src/img/USDT.png" height="30" width="30">
+        </div>
+    </div>
+</body>

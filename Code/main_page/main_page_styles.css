@@ -1,0 +1,210 @@
+.Main-Account{
+    position: absolute;
+    width: 122px;
+    height: 51px;
+    left: 43%;
+    top: 4%;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 51px;
+    /* identical to box height */
+    text-align: center;
+    color: #2D2D2D;
+}
+
+.p-address{
+    color: white; 
+    font-size: medium;
+    font-weight: 400;
+    position: absolute; 
+    top: 10%;
+}
+
+.address{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 25px;
+
+    position: absolute;
+    width: 357px;
+    height: 26px;
+    left: 34%;
+    top: 10%;
+
+    background: #62CDC7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.pass{
+    position: absolute;
+    width: 160px;
+    height: 51px;
+    left: 30%;
+    top: 18%;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 51px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #2D2D2D;
+}
+
+.selection{
+    position: absolute;
+    left: 32%;
+    top: 23%;
+    display:inline
+    
+}
+
+.proceed{
+    position: absolute;
+    left: 38%;
+    top: 45%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 100px; 
+
+    background: #62CDC7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    border-color: transparent;
+    color: white;
+}
+
+.Purchase{
+    position: absolute;
+    left: 30%;
+    top: 54%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.country{
+    display: flex; 
+}
+
+.ap-tickets{
+    position: absolute;
+    width: 146px;
+    height: 159px;
+    left: 35%;
+    top: 61%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 23px;
+    border-color: transparent;
+}
+
+.flight-tickets{
+    position: absolute;
+    width: 146px;
+    height: 159px;
+    left: 50%;
+    top: 61%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 23px;
+    border-color: transparent;
+}
+
+.recent{
+    position: absolute;
+    width: 300px;
+    height: 51px;
+    left: 25%;
+    top: 90%;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 51px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #2D2D2D;
+    /* identical to box height */
+}
+
+.NFT1{
+    position: absolute;
+    width: 146px;
+    height: 180px;
+    left: 35%;
+    top: 100%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 23px;
+    border-color: transparent;
+}
+
+.NFT2{
+    position: absolute;
+    width: 146px;
+    height: 180px;
+    left: 50%;
+    top: 100%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 23px;
+    border-color: transparent;
+}
+
+.features{
+    font-size: small; 
+    font-family: Arial;  /*Helvetica, sans-serif; */
+    font-weight: bold;
+    color: white; 
+
+    display: inline-block; 
+    padding: 0px; 
+    margin: 0rem;     
+    grid-column-gap: 2.5px;  
+
+    position: absolute;
+    width: 428px;
+    height: 91px;
+    left: 40%;
+    top: 138%;
+    z-index: 2;
+}
+
+.flag {
+    border-color: transparent; 
+}
+
+.nav-bar{
+    position: absolute;
+    width: 428px;
+    height: 91px;
+    left: 30%;
+    top: 135%;
+
+    background: #62CDC7;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px 40px 0px 0px;
+}
+
+.ticks{
+    font-size: medium;
+}

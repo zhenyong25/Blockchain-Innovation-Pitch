@@ -1,0 +1,150 @@
+.art{
+    position: absolute;
+    left: 45%;
+    top: 5%;
+}
+
+body h5{
+    position: absolute;
+    left: 46%;
+    top: 30%;
+}
+
+.test{
+    position:absolute;
+    top:5%;
+    left: 5%; 
+}
+
+.back{
+    position: absolute;
+    left: 30%;
+    right: 82.71%;
+    top: 3.46%;
+    bottom: 92.55%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border-color: transparent;
+}
+
+.refresh{
+    position: absolute;
+    left: 80%;
+    top: 10%;
+
+}
+
+.ART{
+    position: absolute;
+    left: 30%;
+    right: 9.58%;
+    top: 39.2%;
+    bottom: 43.95%;
+
+    background: rgba(3, 192, 158, 0.06);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+    height: 20%;
+    width: 40%;
+
+}
+
+.PCR{
+    position: absolute;
+    left: 30%;
+    right: 9.58%;
+    top: 65%;
+    bottom: 20.19%;
+
+    background: rgba(5, 53, 224, 0.06);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+    height: 20%;
+    width: 40%;
+}
+
+.purchase1{
+    position: absolute;
+      left: 60%;
+      top: 60%;
+
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 0px 40px; 
+
+      background: #62CDC7;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 30px;
+      border-color: transparent;
+      color: white;
+}
+
+.purchase2{
+    position: absolute;
+      left: 60%;
+      top: 60%;
+
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 0px 40px; 
+
+      background: #04A4C8;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 30px;
+      border-color: transparent;
+      color: white;
+}
+
+.value{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 10%;
+    top: 45%;
+ 
+    display: inline-block; 
+    padding: 0px; 
+    margin: 0.5rem;     
+    grid-column-gap: 2.5px; 
+    background: #FFFDFD;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16.5px;
+}
+
+.amount{
+    display: grid; 
+    padding: 0rem; 
+    margin: 0.5rem;     
+    grid-column-gap: 1px;   /* display in one-line  */ 
+}
+
+.price{
+    position: absolute; 
+    top: 61%; 
+    left: 30%
+}
+
+.USDT{
+    position: absolute; 
+    top: 61%; 
+    left: 34%
+}
+
+.tether{
+    position: absolute; 
+    top: 60%; 
+    left: 43%
+}
+

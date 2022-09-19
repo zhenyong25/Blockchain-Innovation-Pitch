@@ -1,0 +1,133 @@
+.back{
+    position: absolute;
+    left: 30%;
+    right: 82.71%;
+    top: 3.46%;
+    bottom: 92.55%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border-color: transparent;
+}
+
+.doctext{
+    position: absolute;
+    left: 45%;
+    top: 5%;
+}
+
+.doctext2{
+    position: absolute;
+    left: 44%;
+    top: 40%;
+}
+
+.p-address{
+    color: white; 
+    font-size: medium;
+    font-weight: 400;
+    position: absolute; 
+    top: 10%;
+}
+
+.address{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 25px;
+
+    position: absolute;
+    width: 357px;
+    height: 26px;
+    left: 36%;
+    top: 12.5%;
+
+    background: #62CDC7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.asset1 {
+    position: absolute;
+    width: 400px;
+    height: 45px;
+    left: 35%;
+    top: 50%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+}
+
+.asset2 {
+    position: absolute;
+    width: 400px;
+    height: 45px;
+    left: 35%;
+    top: 60%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+}
+
+.asset3 {
+    position: absolute;
+    width: 400px;
+    height: 45px;
+    left: 35%;
+    top: 70%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+}
+
+.asset4 {
+    position: absolute;
+    width: 400px;
+    height: 45px;
+    left: 35%;
+    top: 80%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+}
+
+.all_asset {
+    position:absolute; 
+    top:20%; 
+    left:5%; 
+}
+
+.asset_text {
+    position: absolute;
+    left: 20%;
+    top: 30%;
+    z-index: 2;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bnb {
+    position:absolute; 
+    top:30%; 
+    left:47%; 
+}
+
+.drop-down{
+    position:absolute; 
+    top:22%; 
+    left:40%; 
+}
+
+
+
+
+

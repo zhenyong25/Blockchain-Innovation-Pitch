@@ -1,0 +1,87 @@
+.back{
+    position: absolute;
+    left: 30%;
+    right: 82.71%;
+    top: 3.46%;
+    bottom: 92.55%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border-color: transparent;
+}
+
+.art{
+    position: absolute;
+    left: 45%;
+    top: 5%;
+}
+
+body h5{
+    position: absolute;
+    left: 46%;
+    top: 30%;
+}
+
+.document1 {
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    left: 30%;
+    top: 40%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+}
+
+.document2 {
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    left: 30%;
+    top: 60%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+}
+
+.document3 {
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    left: 30%;
+    top: 80%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+}
+
+.name {
+    position: absolute;
+    top: 10%; 
+    left: 5%; 
+}
+
+.price{
+    position: absolute;
+    top: 35%; 
+    left: 77%; 
+}
+
+.view{
+    font-size: small;
+    top: 75%; 
+    left: 78%; 
+}
+
+.view:hover{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer; 
+}

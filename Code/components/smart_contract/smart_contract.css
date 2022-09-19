@@ -1,0 +1,165 @@
+.back{
+    position: absolute;
+    left: 30%;
+    right: 82.71%;
+    top: 3.46%;
+    bottom: 92.55%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border-color: transparent;
+}
+
+.document1 {
+    position: absolute;
+    width: 400px;
+    height: 64px;
+    left: 35%;
+    top: 12.5%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+}
+
+/* .spinner1{
+  display: absolute; 
+  top: 50%;
+  left: 50%; 
+} */
+
+.document2{
+    position: absolute;
+    width: 400px;
+    height: 64px;
+    left: 35%;
+    top: 27.5%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+}
+
+.document3{
+    position: absolute;
+    width: 400px;
+    height: 64px;
+    left: 35%;
+    top: 42.5%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+}
+
+.document4{
+    position: absolute;
+    width: 400px;
+    height: 64px;
+    left: 35%;
+    top: 57.5%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+}
+
+.document5{
+    position: absolute;
+    width: 400px;
+    height: 64px;
+    left: 35%;
+    top: 72.5%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+}
+
+.info{
+    position: absolute;
+    left: 10%;
+    top: 30%;
+}
+
+.doctext{
+    position: absolute;
+    left: 42%;
+    top: 5%;
+}
+
+
+.validate{
+    position: absolute;
+    left: 43%;
+    top: 87%;
+    width: 15%;
+
+    background: #62CDC7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    border-color: transparent;
+    color: white;  
+}
+
+.loader 
+{
+    position: absolute; 
+    top: 25%; 
+    left: 80%; 
+    width: 35px; 
+    height: 35px; 
+    border-radius: 50%; 
+    background: linear-gradient(45deg,transparent,transparent 40%, #e5f403);
+    animation: animate 2s linear infinite;
+    animation-duration: 5s;  
+}
+
+@keyframes animate
+{
+    
+    0%{
+        transform: rotate(0deg); 
+        filter: hue-rotate(0deg); 
+    }
+
+    100%
+    {
+        transform: rotate(360deg); 
+        filter: hue-rotate(360deg); 
+    }
+}
+
+.loader:before
+{
+  content:''; 
+  position: absolute;
+  top: 6px; 
+  left: 6px; 
+  right: 6px; 
+  bottom: 6px; 
+  background: rgb(255, 255, 255); 
+  border-radius: 50%; 
+  z-index: 1000; 
+
+}
+
+.loader:after
+{
+  content:''; 
+  position: absolute;
+  top: 0px; 
+  left: 0px; 
+  right: 0px; 
+  bottom: 0px; 
+  background: linear-gradient(45deg,transparent,transparent 40%, #e5f403);
+  border-radius: 50%; 
+  z-index: 1000; 
+  z-index: 1; 
+  filter: blur(30px); 
+}
+
